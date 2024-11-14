@@ -1,0 +1,5 @@
+vpc_variable = "10.0.0.0/16" 
+aws_default_region = "us-east-1"
+subnet_cidr_block = "10.0.1.0/24"
+aws_test_instance_ami = "ami-0e86e20dae9224db8" 
+aws_test_instance_type = "t2.micro"
