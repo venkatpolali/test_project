@@ -1,26 +1,19 @@
-variable "vpc_aws" {
-  type    = string
-  default = "10.0.0.0/16"
+variable "vpc_variable" {
+    type = string 
 }
 
-variable "ami_instance" {
-  type    = string
-  default = "ami-0182f373e66f89c85"
+variable "aws_default_region" {
+    type = string
 }
 
-variable "instance_type_aws" {
-  type    = string
-  default = "t2.micro"
+variable "subnet_cidr_block" {
+  type = string
 }
 
-variable "available_zone" {
-  type    = string
-  default = "us-east-1"
-
+variable "aws_test_instance_ami" {
+    type = string
 }
 
-variable "environment" {
-  type        = string
-  description = "choose the environment"
-  #default = "stage"
+variable "aws_test_instance_type" {
+  type = string
 }
