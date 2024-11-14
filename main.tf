@@ -11,7 +11,6 @@ locals {
 
 provider "aws" {
   region                   = local.region_env
-  shared_credentials_files = ["C:\\Users\\w191397\\OneDrive - Worldline SA\\Documents\\Zabbix\\credentials"]
 }
 
 data "aws_availability_zones" "available" {}
